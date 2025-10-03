@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Nonlinear Transport in Topological Insulators"
+authors:
+  - given-names: "Huu-Thong"
+    family-names: "Le"
+    affiliation: "Pennsylvania State University"
+  - given-names: "Chao-Xing"
+    family-names: "Liu"
+    affiliation: "Pennsylvania State University"
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # Add actual ORCID if available
+repository-code: "https://github.com/yourusername/NonlinearTransportTI"  # Update with actual URL
+license: MIT
+date-released: "2024-10-03"
+version: "1.0"
+doi: ""  # Add DOI when available
+preferred-citation:
+  type: article
+  title: "[Your Paper Title]"
+  authors:
+    - given-names: "Huu-Thong"
+      family-names: "Le"
+    - given-names: "Chao-Xing"
+      family-names: "Liu"
+  journal: "[Journal Name]"
+  year: 2025
+  doi: "[DOI]"  # Add when available
