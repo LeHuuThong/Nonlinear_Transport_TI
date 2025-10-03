@@ -10,7 +10,7 @@ authors:
     family-names: "Liu"
     affiliation: "Pennsylvania State University"
     orcid: "https://orcid.org/0000-0000-0000-0000"  # Add actual ORCID if available
-repository-code: "https://github.com/yourusername/NonlinearTransportTI"  # Update with actual URL
+repository-code: "https://github.com/LeHuuThong/Nonlinear_Transport_TI"  # Update with actual URL
 license: MIT
 date-released: "2024-10-03"
 version: "1.0"

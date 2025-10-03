@@ -54,27 +54,6 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Basic Transport Calculation
-
-```python
-import HallTransport as HT
-import Hamiltonians
-
-# Create Hamiltonian
-hamiltonian = HT.HamiltonianBuilder(Hoppings, W=20, L=20, nW=2, nL=5, 
-                                   eU_values=np.zeros((2,5)))
-hamiltonian.create_system()
-
-# Calculate first-order Hall conductance
-hall1 = HT.HallResistance_1st(hamiltonian, energy=-0.1)
-hall1.evaluate_smatrix()
-hall1.evaluate_Hall_resistance()
-
-# Calculate second-order nonlinear response
-hall2 = HT.HallResistance_2nd(hamiltonian, energy=-0.1)
-hall2.evaluate_all()
-```
-
 ### Analysis and Visualization
 
 See `Note_Figures.ipynb` for detailed examples of data analysis and figure generation.
@@ -84,9 +63,9 @@ See `Note_Figures.ipynb` for detailed examples of data analysis and figure gener
 If you use this code in your research, please cite the associated publication. See [CITATION.cff](CITATION.cff) for machine-readable citation information, or use the following BibTeX:
 
 ```bibtex
-@article{YourPaper2025,
-  title={[Your Paper Title]},
-  author={Huu-Thong Le and Chao-Xing Liu},
+@article{Submitted2025,
+  title={[Paper Title]},
+  author={Huu-Thong Le, Chao-Xing Liu et al.},
   journal={[Journal Name]},
   volume={[Volume]},
   pages={[Pages]},
@@ -97,7 +76,7 @@ If you use this code in your research, please cite the associated publication. S
 
 ## License and Copyright
 
-Copyright (c) 2024 Huu-Thong Le, Chao-Xing Liu
+Copyright (c) 2025 Huu-Thong Le, Chao-Xing Liu
 
 This software is released under the MIT License. See the [LICENSE](LICENSE) file for full license details.
 
@@ -114,7 +93,7 @@ This code was developed as part of academic research. When using this software:
 
 For questions about the code or collaboration opportunities, please contact:
 
-- **Primary Author**: [Prof. Chao-Xing Liu] - [cxl56@psu.edu]
+- **Authors**: [Prof. Chao-Xing Liu, cxl56@psu.edu] - [Huu-Thong Le, thl5114@psu.edu]
 - **Institution**: [Department of Physics - Pennsylvania State University]
 
 ## Acknowledgments
